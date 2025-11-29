@@ -77,6 +77,15 @@ This document provides a hierarchical index of all Jira tickets mapped to their 
 |---------|--------|------|-------------|
 | **FN/ADM/RUL/001** | 📝 Planned | `/specs/FN/ADM/RUL/001-Basic_Constraints/` | Basic Constraints - Define and manage foundational scheduling rules |
 | **FN/ADM/RUL/002** | 📝 Planned | `/specs/FN/ADM/RUL/002-Nurse_Patterns/` | Nurse Patterns - Sliding window and sequence pattern constraints |
+| **FN/ADM/RUL/004** | ✅ Completed | `/specs/FN/ADM/RUL/004-Fairness_Soft_Constraints/` | Fairness & Soft Constraints - Hard/Soft constraint distinction with penalty-based optimization |
+| └─ FN/ADM/RUL/004-01 | ✅ Completed | | Schema & Migration - Add isRequired field |
+| └─ FN/ADM/RUL/004-02 | ✅ Completed | | Seed Data Update - Add isRequired to constraints |
+| └─ FN/ADM/RUL/004-03 | ✅ Completed | | Python Schema Update - Add is_required to Pydantic models |
+| └─ FN/ADM/RUL/004-04 | ✅ Completed | | Solver Soft Constraint Implementation |
+| └─ FN/ADM/RUL/004-05 | ✅ Completed | | TypeScript Integration - Pass is_required to solver |
+| └─ FN/ADM/RUL/004-06 | ✅ Completed | | UI - Required Column & Badge |
+| └─ FN/ADM/RUL/004-07 | ✅ Completed | | UI - Edit Dialog Toggle |
+| └─ FN/ADM/RUL/004-08 | 🔄 Ready | | Integration Testing |
 
 ##### STF - Staff Module
 
